@@ -1,88 +1,87 @@
 :root {
-    --width:300px;
-    --padding:10px;
-    --bgcolor:black;
-    --hovercolor:blue;
-    --width-collapsed:70px;
-    --width-normal:250px;
+  --width: 300px;
+  --padding: 10px;
+  --bgcolor: black;
+  --hovercolor: blue;
+  --width-collapsed: 70px;
+  --width-normal: 250px;
 }
 
 .lateral-menu-collapsed {
-    width: var(--width-collapsed);
-    height: 100vh;
-    background: rgb(2,0,36);
-background: linear-gradient(00deg, #2760bf  0%, #378cdb 35%,#3fa7ec 100%);
-    transition: .2s;
+  width: var(--width-collapsed);
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(00deg, #2760bf 0%, #378cdb 35%, #3fa7ec 100%);
+  transition: 0.2s;
 }
 
 .lateral-menu {
-    width: var(--width-normal);
-    height: 100vh;
-    background: rgb(2,0,36);
-background: linear-gradient(00deg, #2252b6  10%, #2d72ca 35%,#3d9fe7 100%);
-    transition: .2s;
+  width: var(--width-normal);
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(00deg, #2252b6 10%, #2d72ca 35%, #3d9fe7 100%);
+  transition: 0.2s;
 }
 
 .header-menu {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 2px solid white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid white;
 
-    height: 100px;
+  height: 100px;
 }
 
-.title-profile{
-    font-size: 20px;
-    color: white;
-    width: 60%;
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    display:flex;
+.title-profile {
+  font-size: 20px;
+  color: white;
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
 }
 
-.buttons-menu{
-    height: auto;
-    margin-top: 40px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.buttons-menu {
+  height: auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .item-menu {
-    width: 90%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
 
-.item-menu:hover{
-    background-color: rgba(91,157, 223, 0.8);
-    cursor: pointer;
+.item-menu:hover {
+  background-color: rgba(91, 157, 223, 0.8);
+  cursor: pointer;
 }
 
 .item-icon-menu {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-header {
-    width: 45px;
-    height: 45px;
-    background-color: white;
-    border-radius: 80px;
-  
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 80px;
 }
 
 .title-item {
-    width: 60%;
-    text-align: center;
-    color: white;
+  width: 60%;
+  text-align: center;
+  color: white;
 }

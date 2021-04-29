@@ -21,16 +21,14 @@ const Login = () => {
   };
 
   const login = async (e) => {
-    
-    
     setIsLoading(true);
     e.preventDefault();
     const response = await validateLogin(user);
     if (response["auth"]) {
       localStorage.setItem("auth", true);
       setAuth(true);
-    }else{
-        alert('Datos incorrectos, por favor digitelos de nuevo')
+    } else {
+      alert("Datos incorrectos, por favor digitelos de nuevo");
     }
     setIsLoading(false);
   };
