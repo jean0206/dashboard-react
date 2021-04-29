@@ -17,5 +17,5 @@ Tercer paso: inicializar aplicación
 npm start
 ```
 
-# demo de la aplicacón 
+# Demo de la aplicación 
 ![alt text](https://s3.gifyu.com/images/2021-04-29-06-00-40.gif)
