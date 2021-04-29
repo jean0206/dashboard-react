@@ -16,7 +16,6 @@ const Dashboard = () => {
   useEffect(() => {
     const validate = () => {
         const item = localStorage.getItem('auth')
-        console.log(item)
         if (item!=="true") {
             history.push("/");
         }

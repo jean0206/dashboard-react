@@ -19,7 +19,6 @@ const getUsers = async () => {
 
 const deleteUser = async (id) => {
     const deleteUsers = await axios.delete(server+'/'+id)
-    console.log(deleteUsers)
 }
 
 const validateLogin = async ({email,password}) => {
@@ -30,7 +29,6 @@ const validateLogin = async ({email,password}) => {
     }else {
         return {auth:false}
     }
-    console.log(user.data)
 }
 
 export  {addUser,getUsers,deleteUser,validateLogin};
