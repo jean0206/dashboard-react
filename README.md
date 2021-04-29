@@ -17,4 +17,5 @@ Tercer paso: inicializar aplicación
 npm start
 ```
 
-# dashboard-react
+# demo de la aplicacón 
+![alt text](https://s3.gifyu.com/images/2021-04-29-06-00-40.gif)
