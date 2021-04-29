@@ -1,0 +1,181 @@
+.list-actions{
+    width: 70%;
+    height: 80vh;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.list-container {
+    display: flex;
+    
+}
+
+.list-title {
+    margin: 20px;
+    font-size: 25px;
+    color: #1d43ad;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-form {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: -91vh;
+    position: fixed;
+    margin-left: -15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#b5b5b5 ;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+
+.input-container input{
+    height: 70px;
+    border: 2px solid #eeeeee;
+    border-radius: 6px;
+    outline: none;
+    color:#b5b5b5 ;
+}
+
+.title-modal button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: #e31323;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.title-modal button:hover{
+    color:#e3132496 ;
+}
+
+.title-modal {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 20px;
+    font-size: 25px;
+    color: #333333;
+}
+
+.title-modal span{
+    margin-left: -20px;
+}
+
+.input-container:focus, input:active{
+    color:#b5b5b5 ;
+}
+
+.input-container::placeholder{
+    color:#b5b5b5 ;
+}
+
+
+.action-button-container {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+.action-button-container button {
+
+}
+
+.cancel-button {
+    margin-left: 20px;
+    height: 35px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border: 2px solid #8ec54a;
+    color: #8ec54a;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.accept-button {
+    margin-left: -20px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #8ac146  10%, #77ae33 35%,#659c22 100%);
+    color: white;
+    cursor: pointer;
+}
+
+.accept-button :hover{
+    background: linear-gradient(90deg, #659c22  10%, #77ae33 35%,#8ac146 100%);
+}
+
+.input-form {
+    height: 80px;
+}
+
+.form-user-inputs{
+    width: 85%;
+    height: 85%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.list-table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-user {
+    background-color: #ffffff;
+    width: 600px;
+    height: 450px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-title-button {
+    background-color: #1d43ad; 
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.list-title-button:hover {
+    background-color: #1d43ad91; 
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "name": "Jean Carlos",
+      "lastName": "Ortiz Riascos",
+      "identification": "1010096896",
+      "rol": "Admin",
+      "state": "Independiente",
+      "password": "jean0206",
+      "phone": "3017626045",
+      "email": "jeanortiz00@gmail.com",
+      "id": 1
+    }
+  ]
+}

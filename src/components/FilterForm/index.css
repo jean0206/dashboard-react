@@ -1,0 +1,44 @@
+.filter-container {
+    padding: 30px;
+    margin-top: 19px;
+    width: 19%;
+    background-color: white;
+    height: 470px;
+    margin-left: -10px;
+    border-radius: 6px;
+}
+
+.title-form {
+    color: #1d43ad;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.form-filter{
+
+}
+
+.form-filter label {
+    font-size: 15px;
+    color: #b5b5b5;
+
+}
+
+.form-filter input {
+    height: 24px;
+    width: 100%;
+    color: #b5b5b5;
+    border-color: #eeeeee;
+    border: 2px #eeeeee solid;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 2px;
+}
+
+.buttons-filter {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 18px;
+}

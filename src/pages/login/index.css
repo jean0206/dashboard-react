@@ -1,0 +1,94 @@
+.header-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url("../../assets/images/header.png");
+  background-size: 100vw 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.header-text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text-container {
+  width: 280px;
+  height: 100px;
+  margin-top: -100px;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.header-text-container a {
+  font-size: 18px;
+  color: white;
+}
+
+.header-form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-card {
+  width: 340px;
+  height: 350px;
+  border-radius: 38px;
+  background-color: white;
+  -webkit-box-shadow: 4px 10px 15px 1px rgba(0,0,0,0.26);
+  -moz-box-shadow: 4px 10px 15px 1px rgba(0,0,0,0.26);
+  box-shadow: 4px 10px 15px 1px rgba(0,0,0,0.26);
+  text-align: center;
+}
+
+.login-card h3 {
+  font-weight: 400;
+  margin-top: 38px;
+  color: #707070;
+  font-size: 25px;
+}
+
+.input-card {
+}
+
+.input-card input {
+  height: 50px;
+  width: 70%;
+  -webkit-box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.41);
+  box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.41);
+  border: none;
+  outline: none;
+  font-size: 17px;
+  color: #c7c7c7;
+  padding-left: 14px;
+  margin-top: 2px;
+}
+
+.input-card input::placeholder{
+      color: #c7c7c7;
+      font-weight: lighter;
+}
+
+.login-button{
+    background-color: #2f51e0;
+    border: none;
+    outline: none;
+    color: white;
+    width: 75%;
+    height: 36px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.login-button:hover{
+    background-color: #6483ff;
+    cursor: pointer;
+}

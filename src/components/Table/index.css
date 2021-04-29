@@ -1,0 +1,55 @@
+.table-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    overflow: hidden;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 800px;
+}
+
+.content-table th {
+    margin-left: 10px;
+}
+
+.edit-icon {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.delete-icon {
+    cursor: pointer;
+}
+
+.content-table thead tr {
+    height: auto;
+    color: #000000;
+    text-align: left;
+    line-height: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.content-table thead tr th {
+    margin-left: 8px;
+}
+
+.content-table td {
+    color:#b4b4b4;
+}
+
+.content-table th {
+    font-weight: 500;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+
